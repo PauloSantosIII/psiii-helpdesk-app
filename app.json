@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "psiii-help",
+    "slug": "psiii-help",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

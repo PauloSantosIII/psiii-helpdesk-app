@@ -21,7 +21,7 @@ export const Header = ({ title, ...rest }: Props) => {
       alignItems="center"
       bg="gray.600"
       pb={6}
-      pt={12}
+      pt={5}
       {...rest}
     >
       <IconButton

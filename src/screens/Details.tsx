@@ -8,7 +8,7 @@ import { Loading } from '../components/Loading'
 import { CardDetails } from '../components/CardDetails'
 import { OrderFirestoreDTO } from '../DTOs/OrderDTO'
 import { dateFormat } from '../utils/firestoreDateFormat'
-import { CircleWavyCheck, Clipboard, DesktopTower, Hourglass } from 'phosphor-react-native'
+import { CircleWavyCheck, ClipboardText, DesktopTower, Hourglass } from 'phosphor-react-native'
 import { Input } from '../components/Input'
 import { Button } from '../components/Button'
 import { Alert } from 'react-native'
@@ -106,13 +106,13 @@ export const Details = () => {
             title='EQUIPAMENTO'
             description={`Patrimônio ${order.patrimony}`}
             icon={DesktopTower}
-            footer={order.when}
           />
 
           <CardDetails
             title='DESCRIÇÃO DO PROBLEMA'
             description={order.description}
-            icon={Clipboard}
+            icon={ClipboardText}
+            footer={`Registrado em ${order.when}`}
           />
 
           <CardDetails

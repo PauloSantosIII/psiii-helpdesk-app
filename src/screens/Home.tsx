@@ -68,7 +68,7 @@ export const Home = () => {
         justifyContent="space-between"
         alignItems="center"
         bg="gray.600"
-        pt={12}
+        pt={5}
         pb={5}
         px={6}
       >
